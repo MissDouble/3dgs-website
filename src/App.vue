@@ -15,7 +15,7 @@
   <!-- <HomeView msg="Vite + Vue" /> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <router-link class="navbar-brand" to="/">3DGS網站</router-link>
+        <router-link class="navbar-brand" to="./">3DGS網站</router-link>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,10 +30,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <router-link class="nav-link" to="/blog">部落格</router-link>
+              <router-link class="nav-link" to="blog">部落格</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/upload">建立模型</router-link>
+              <router-link class="nav-link" to="upload">建立模型</router-link>
             </li>
           </ul>
         </div>
