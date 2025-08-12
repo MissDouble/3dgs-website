@@ -57,12 +57,12 @@
               輸入照片或影片，即可生成高精度 3D 模型
             </h1>
             <div class="d-inline-flex gap-3" style="min-width: 320px; justify-content: center;">
-            <a href="login" class="btn btn-primary btn-lg shadow" style="min-width: 160px;">
-                建立模型
-            </a>
-            <a href="download" class="btn btn-success btn-lg shadow" style="min-width: 160px;">
-                下載 App
-            </a>
+            <router-link to="/login" class="btn btn-primary btn-lg shadow" style="min-width: 160px;">
+              建立模型
+            </router-link>
+            <router-link to="/download" class="btn btn-success btn-lg shadow" style="min-width: 160px;">
+              下載 App
+            </router-link>
             </div>
           </div>
         </transition>
